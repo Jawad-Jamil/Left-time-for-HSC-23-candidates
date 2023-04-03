@@ -1,6 +1,6 @@
 let p =document.getElementById("time");
 let exm = new Date('2023-07-09T11:00:00').getTime();
-let exm_dt = new Date('2023-07-01T11:00:00');
+let exm_dt = new Date('2023-08-10T11:00:00');
 
 
 setInterval(tchange , 1000);
