@@ -1,6 +1,6 @@
 let p =document.getElementById("time");
-let exm = new Date('2023-08-10T11:00:00').getTime();
-let exm_dt = new Date('2023-08-10T11:00:00');
+let exm = new Date('2023-08-17T10:00:00').getTime();
+let exm_dt = new Date('2023-08-17T10:00:00');
 
 
 setInterval(tchange , 1000);
@@ -50,7 +50,7 @@ function tchange() {
         let day = exm_dt.getDate();
         let hour = exm_dt.getHours();
         let minute = exm_dt.getMinutes();
-        p.innerHTML = `Exam has already started on 0${day}/0${month}/${yr} at ${hour}:0${minute}AM`
+        p.innerHTML = `Exam has already started from 0${day}/0${month}/${yr} at ${hour}:0${minute}AM`
     }
 
 }
